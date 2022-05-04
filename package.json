@@ -1,6 +1,7 @@
 {
   "name": "socccd.ts-react",
   "version": "1.0.0",
+  "license": "MIT",
   "dependencies": {
     "@reduxjs/toolkit": "1.7.1",
     "@testing-library/jest-dom": "5.16.1",

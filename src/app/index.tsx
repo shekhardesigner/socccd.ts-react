@@ -21,11 +21,14 @@ export function App() {
   return (
     <BrowserRouter>
       <Helmet
-        titleTemplate="%s - React Boilerplate"
-        defaultTitle="React Boilerplate"
+        titleTemplate="%s - SOCCCD TS React"
+        defaultTitle="SOCCCD React Template"
         htmlAttributes={{ lang: i18n.language }}
       >
-        <meta name="description" content="A React Boilerplate application" />
+        <meta
+          name="description"
+          content="React starter template for SOCCCD with Typescript and modern tooling."
+        />
       </Helmet>
 
       <Switch>
